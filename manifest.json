@@ -1,0 +1,12 @@
+{
+   "info" : {
+      "name" : "Bunny", 
+      "version" : 1
+   },
+   "aliases" : {
+      "tomb_stand" : "file(entities/tomb_stand/tomb_stand.json)", 
+   }, 
+   "mixintos" : {
+      "stonehearth/jobs/carpenter/recipes/recipes.json" : "file(recipes/recipes.json)"
+   }
+}

@@ -1,0 +1,11 @@
+{
+   "craftable_recipes" : {
+      "furniture" : {
+         "recipes" : {
+            "tomb_stand_recipe" : {
+               "recipe" : "file(tomb_stand_recipe.json)"
+            }            
+         }
+      }
+   }
+}
