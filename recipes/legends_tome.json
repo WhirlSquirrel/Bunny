@@ -1,0 +1,20 @@
+{  
+   "type":"recipe",
+   "work_units":2,
+   "recipe_name":"Legends Tome",
+   "description":"The tome of legends",
+   "flavor":"Do you dare venture forth?",
+   "portrait":"/startermod_basic/entities/legends_tome/legends_tome.png",
+   "level_requirement":0,
+   "ingredients":[  
+      {  
+         "material":"wood resource",
+         "count":3
+      }
+   ],
+   "produces":[  
+      {  
+         "item":"startermod_basic:legends_tome"
+      }
+   ]
+}

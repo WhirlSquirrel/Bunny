@@ -1,12 +1,14 @@
-{
-   "info" : {
-      "name" : "Bunny", 
-      "version" : 1
+{  
+   "info":{  
+      "name":"startermod_basic",
+      "version":2
    },
-   "aliases" : {
-      "tomb_stand" : "file(entities/tomb_stand/tomb_stand.json)", 
-   }, 
-   "mixintos" : {
-      "stonehearth/jobs/carpenter/recipes/recipes.json" : "file(recipes/recipes.json)"
+   "default_locale": "en",
+   "aliases":{  
+      "piggy_bank":"file(entities/piggy_bank/piggy_bank.json)",
+      "legends_tome":"file(entities/legends_tome/legends_tome.json)"
+   },
+   "mixintos":{  
+      "stonehearth/jobs/carpenter/recipes/recipes.json":"file(recipes/recipes.json)"
    }
 }
