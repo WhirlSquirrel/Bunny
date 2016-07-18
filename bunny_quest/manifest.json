@@ -1,0 +1,17 @@
+{  
+   "info":{  
+      "name":"bunny_quest",
+      "version":2
+   },
+   "default_locale": "en",
+   "aliases":{  
+      "bunny_quest:weapons:wars_sword" : "file(entities/weapons/wars_sword/wars_sword.json)",
+      "bunny_quest:weapons:wars_sword" : "file(entities/weapons/wars_sword/wars_sword_iconic.json)",
+      "bunny_quest:furniture:legends_tome":"file(entities/furniture/legends_tome/legends_tome.json)",
+      "bunny_quest:furniture:legends_tome":"file(entities/furniture/legends_tome/legends_tome_iconic.json)"
+   },
+   "mixintos":{  
+      "stonehearth/jobs/carpenter/recipes/recipes.json" : "file(jobs/carpenter/recipes/recipes.json)",
+      "stonehearth/jobs/blacksmith/recipes/recipes.json" : "file(jobs/blacksmith/recipes/recipes.json)"
+   }
+}

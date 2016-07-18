@@ -1,0 +1,67 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "display_name": "i18n(bunny_quest:entities.wars_sword.display_name)",
+         "description": "i18n(bunny_quest:entities.wars_sword.description)",
+         "icon": "file(wars_sword.png)"
+      },
+      "item": {
+         "category": "weapons"
+      },
+      "stonehearth:material": {
+         "tags": "metal melee_weapon crafted stockpile_weapon"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(wars_sword_equipped.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(wars_sword_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "mainhand",
+         "additional_equipment": {
+            "stonehearth:armor:offhand_placeholder": false
+         },
+         "render_type": "attach_to_bone",
+         "postures": [
+            "stonehearth:combat",
+            "stonehearth:patrol"
+         ],
+         "ilevel": 30,
+         "roles": "melee_combat",
+         "required_job_level": 1,
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 100,
+         "reach": 2.5
+      },
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "combat_2h_attack",
+            "effect": "combat_2h_attack",
+            "active_frame": 21,
+            "cooldown": 0,
+            "priority": 2
+         }
+      ],
+      "stonehearth:net_worth": {
+         "value_in_gold": 10000,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 8,
+            "shopkeeper_type": "caravan"
+         }
+      }
+   }
+}

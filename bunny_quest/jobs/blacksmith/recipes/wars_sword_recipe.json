@@ -1,0 +1,24 @@
+{
+   "type": "recipe",
+   "work_units": 8,
+   "recipe_name": "Wars Sword",
+   "description": "Taken from the horseman of War",
+   "portrait": "/stonehearth/entities/weapons/wars_sword/wars_sword.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 6,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 6
+      },
+      {
+         "uri": "stonehearth:refined:leather_bolt",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:weapons:wars_sword"
+      }
+   ]
+}
