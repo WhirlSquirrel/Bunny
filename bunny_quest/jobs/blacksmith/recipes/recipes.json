@@ -6,6 +6,9 @@
          "recipes": {
             "wars_sword": {
                "recipe": "file(wars_sword_recipe.json)"
+            },
+            "deaths_scythe": {
+               "recipe": "file(deaths_scythe_recipe.json)"
             }
          }
       }

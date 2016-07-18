@@ -6,6 +6,7 @@
    "default_locale": "en",
    "aliases":{  
       "weapons:wars_sword" : "file(entities/weapons/wars_sword)",
+      "weapons:deaths_scythe" : "file(entities/weapons/deaths_scythe)",
       "furniture:legends_tome" : "file(entities/furniture/legends_tome)"
    },
    "mixintos":{  
