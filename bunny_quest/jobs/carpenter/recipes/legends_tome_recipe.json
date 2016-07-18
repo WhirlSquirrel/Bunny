@@ -1,0 +1,21 @@
+{  
+   "type":"recipe",
+   "work_units":2,
+   "recipe_name":"Legends Tome",
+   "description":"The tome of legends",
+   "flavor":"Do you dare venture forth?",
+   "portrait":"/bunny_quest/entities/furniture/legends_tome/legends_tome.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement":6,
+   "ingredients":[  
+      {  
+         "material":"wood resource",
+         "count":3
+      }
+   ],
+   "produces":[  
+      {  
+         "item":"bunny_quest:furniture:legends_tome"
+      }
+   ]
+}
