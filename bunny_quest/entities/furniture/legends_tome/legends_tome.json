@@ -2,6 +2,11 @@
    "type": "entity",
    "mixins": "file(legends_tome_ghost.json)",
    "components": {
+      "unit_info": {
+         "display_name": "Legends Tome",
+         "description": "The tome of legends to be told",
+         "icon": "file(legends_tome.png)"
+      },
       "mob": {
          "model_origin": { "x": 0, "y": 0, "z": 0 },
          "region_origin": { "x": 0, "y": 0, "z": 0 }

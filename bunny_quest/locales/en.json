@@ -1,0 +1,61 @@
+{
+	"jobs" : {
+		"blacksmith" : {
+			"recipes" : {
+				"deaths_scythe_recipe" : {
+					"recipe_name" : "Death's Scythe",
+					"description" : "Death's Legendary Blade",
+					"flavor" : "The power of death awaits you."
+				},
+				"wars_sword_recipe" : {
+					"recipe_name" : "War's Sword",
+					"descriptiom" : "Wars tool of destruction",
+					"flavor" : "You control the war now"
+				}
+			}
+		},
+		"carpenter" : {
+			"recipes" : {
+				"legends_tome_recipe" : {
+					"recipe_name" : "Legends Tome",
+					"description" : "The Tome of Legends",
+					"flavor" : "Where Legends are fortold."
+				}
+			}
+		}
+	},
+	"entities" : {
+		"weapons" : {
+			"deaths_scythe" : {
+				"deaths_scythe" : {
+					"display_name" : "Death's Scythe",
+					"description" : "Death's Legendary Blade"
+				},
+				"deaths_scythe_iconic" : {
+					"display_name" : "Death's Scythe",
+					"description" : "Death's Legendary Blade"
+				}
+			},
+			"wars_sword" : {
+				"wars_sword" : {
+					"display_name" : "War's Sword",
+					"descriptiom" : "Wars tool of destruction"
+				},
+				"wars_sword_iconic" : {
+					"display_name" : "War's Sword",
+					"descriptiom" : "Wars tool of destruction"
+				}
+			}
+		},
+		"furniture" : {
+			"legends_tome" : {
+				"display_name" : "Legends Tome",
+				"description" : "The Tome of Legends"
+			},
+			"legends_tome_iconic" : {
+				"display_name" : "Legends Tome",
+				"description" : "The Tome of Legends"
+			}
+		}
+	}
+}

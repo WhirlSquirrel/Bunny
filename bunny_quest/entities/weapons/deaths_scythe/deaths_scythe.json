@@ -3,8 +3,8 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "display_name": "i18n(bunny_quest:entities.deaths_scythe.display_name)",
-         "description": "i18n(bunny_quest:entities.deaths_scythe.description)",
+         "display_name": "Death's Scythe",
+         "description": "You now possess the power of Death",
          "icon": "file(deaths_scythe.png)"
       },
       "item": {
@@ -54,7 +54,7 @@
          }
       ],
       "stonehearth:net_worth": {
-         "value_in_gold": 10000,
+         "value_in_gold": 1000,
          "rarity": "common",
          "shop_info": {
             "buyable": false,

@@ -3,8 +3,8 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "display_name": "i18n(bunny_quest:entities.wars_sword.display_name)",
-         "description": "i18n(bunny_quest:entities.wars_sword.description)",
+         "display_name": "Wars Sword",
+         "description": "You now possess the power of War",
          "icon": "file(wars_sword.png)"
       },
       "item": {
@@ -33,7 +33,7 @@
             "stonehearth:combat",
             "stonehearth:patrol"
          ],
-         "ilevel": 30,
+         "ilevel": 29,
          "roles": "melee_combat",
          "required_job_level": 1,
          "equip_effect": "stonehearth:effects:weapon_level_up"
@@ -54,7 +54,7 @@
          }
       ],
       "stonehearth:net_worth": {
-         "value_in_gold": 10000,
+         "value_in_gold": 1000,
          "rarity": "common",
          "shop_info": {
             "buyable": false,
