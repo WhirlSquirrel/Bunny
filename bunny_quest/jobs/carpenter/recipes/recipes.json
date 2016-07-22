@@ -8,6 +8,15 @@
                "recipe": "file(legends_tome_recipe.json)"
             }
          }
+      },
+      "armor": {
+         "ordinal": 7,
+         "name": "i18n(stonehearth:jobs.carpenter.recipes.armor_name)",
+         "recipes": {
+            "pestilences_bow_recipe": {
+               "recipe": "file(pestilences_bow_recipe.json)"
+            }
+         }
       }
    }
 }

@@ -20,6 +20,11 @@
 					"recipe_name" : "Legends Tome",
 					"description" : "The Tome of Legends",
 					"flavor" : "Where Legends are fortold."
+				},
+				"pestilences_bow_recipe" : {
+					"recipe_name" : "Pestilence's Bow",
+					"description" : "Pestilences striking bow",
+					"flavor" : "So the conquest begins"
 				}
 			}
 		}
@@ -43,7 +48,17 @@
 				},
 				"wars_sword_iconic" : {
 					"display_name" : "War's Sword",
-					"descriptiom" : "Wars tool of destruction"
+					"description" : "Wars tool of destruction"
+				}
+			},
+			"pestilences_bow" : {
+				"pestilences_bow" : {
+					"display_name" : "Pestilence's Bow",
+					"description" : "Pestilences striking bow"
+				},
+				"Pestilences_bow_iconic" : {
+					"display_name" : "Pestilence's Bow",
+					"description" : "Pestilences striking bow"
 				}
 			}
 		},

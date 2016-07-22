@@ -1,0 +1,16 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "item": {
+         "category": "weapons"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(pestilences_bow.qb)"
+            ]
+         }
+      }
+   }
+}
