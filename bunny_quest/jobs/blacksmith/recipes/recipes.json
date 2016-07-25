@@ -4,11 +4,20 @@
          "ordinal": 8,
          "name": "i18n(stonehearth:jobs.blacksmith.recipes.weapons_name)",
          "recipes": {
-            "wars_sword": {
+            "wars_sword_recipe": {
                "recipe": "file(wars_sword_recipe.json)"
             },
-            "deaths_scythe": {
+            "deaths_scythe_recipe": {
                "recipe": "file(deaths_scythe_recipe.json)"
+            }
+         }
+      },
+      "storage": {
+         "ordinal": 20,
+         "name": "i18n(stonehearth:jobs.blacksmith.recipes.storage_name)",
+         "recipes": {
+            "safe_recipe": {
+               "recipe": "file(safe_recipe.json)"
             }
          }
       }

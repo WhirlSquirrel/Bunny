@@ -11,6 +11,11 @@
 					"recipe_name" : "War's Sword",
 					"descriptiom" : "Wars tool of destruction",
 					"flavor" : "You control the war now"
+				},
+				"safe_recipe" : {
+					"recipe_name" : "Safe of Storage",
+					"description" : "Holds all the things",
+					"flavor" : "Why use anything else?"
 				}
 			}
 		},
@@ -70,6 +75,13 @@
 			"legends_tome_iconic" : {
 				"display_name" : "Legends Tome",
 				"description" : "The Tome of Legends"
+			}
+		},
+		"containers" : {
+			"safe" : {
+				"recipe_name" : "Safe of Storage",
+				"description" : "Holds all the things",
+				"flavor" : "Why use anything else?"
 			}
 		}
 	}

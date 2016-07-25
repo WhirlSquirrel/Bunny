@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "work_units": 15,
+   "recipe_name" : "Safe of Storage",
+   "description" : "Holds all the things",
+   "flavor" : "Why use anything else?",
+   "portrait": "/bunny_quest/entities/containers/safe/safe.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 6,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:gold_ingot",
+         "count": 10
+      },
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 20
+      }
+   ],
+   "produces": [
+      {
+         "item": "bunny_quest:containers:safe"
+      }
+   ]
+}

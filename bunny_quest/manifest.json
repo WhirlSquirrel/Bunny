@@ -10,7 +10,9 @@
       "weapons:deaths_scythe" : "file(entities/weapons/deaths_scythe)",
       "weapons:pestilences_bow" : "file(entities/weapons/pestilences_bow)",
 
-      "furniture:legends_tome" : "file(entities/furniture/legends_tome)"
+      "furniture:legends_tome" : "file(entities/furniture/legends_tome)",
+
+      "containers:safe" : "file(entities/containers/safe)"
    },
    "mixintos":{  
       "stonehearth/jobs/carpenter/recipes/recipes.json" : "file(jobs/carpenter/recipes/recipes.json)",

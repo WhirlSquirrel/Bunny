@@ -1,0 +1,27 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(safe.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.2
+      },
+      "stonehearth:material": {
+         "tags": "metal furniture crafted crate stockpile_furniture"
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 },
+         "align_to_grid": [
+            "x",
+            "z"
+         ],
+         "allow_vertical_adjacent": true
+      }
+   }
+}
